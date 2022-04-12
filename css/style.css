@@ -1,1 +1,25 @@
 @charset "UTF-8";
+/* This is the Logo. */
+.cdlogo{
+    text-align: center;
+}
+
+/* This is the Nav Bar section. */
+.nav{
+	font: raleway;
+	color: black;
+}
+
+.nav-link{
+	color: #1A1713;
+}
+
+.nav-link:hover {color: #B7B7ED}
+
+.dropdown-item{
+	color: #1A1713;
+}
+
+.dropdown-item:active {
+background-color: #B7B7ED;
+}

@@ -8,14 +8,30 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="http://code.jquery.com//jquery-1.10.2.js"></script>
 <title>AV - Christa Dirksz Portfolio</title>
   </head>
   <body>
+	  <div class="cdlogo">
+	<a href="index.html"><img class="logo" src="images/banner logo.png" width="1000" alt="Christa Dirksz Portfolio Logo"/></a>
+	</div>
+	  <!--Navigation bar-->
+		<div id="nav-placeholder">
+		</div>
+		<script>
+			$(function(){
+  			$("#nav-placeholder").load("nav.html");
+			});
+	  	</script>
+	<!--end of Navigation bar-->
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.6.0.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.bundle.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- <script src="js/jquery-3.6.0.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
   </body>
 </html>
