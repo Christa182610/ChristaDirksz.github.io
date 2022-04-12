@@ -8,13 +8,16 @@
 .nav{
 	font: raleway;
 	color: black;
+	font-size: 20px;
 }
 
 .nav-link{
 	color: #1A1713;
 }
 
-.nav-link:hover {color: #B7B7ED}
+.nav-link:hover {
+	color: #B7B7ED;
+}
 
 .dropdown-item{
 	color: #1A1713;
@@ -23,3 +26,5 @@
 .dropdown-item:active {
 background-color: #B7B7ED;
 }
+
+/* */
