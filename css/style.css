@@ -14,7 +14,7 @@
 /* This is the Nav Bar section. */
 .nav{
 	font-family: lato;
-	color: black;
+	color: #1A1713;
 	font-size: 22px;
 }
 
@@ -34,4 +34,36 @@
 background-color: #B7B7ED;
 }
 
-/* */
+/* This is the Credit Page. */
+.credit{
+		font-size: 14px;
+}
+
+/* This is the footer. */
+.footer {
+	bottom: 0;
+	position: absolute;
+	font-family: lato;
+	color: #1A1713;
+    background-color: #B7B7ED;
+    margin-top: 90px;
+}
+
+.footer-text {
+	color: #1A1713;
+	text-align: center;
+}
+
+.footer-text1:hover {
+    color: #1A1713;
+    text-decoration: underline;
+}
+
+.footer-img {
+	padding-bottom: 8px;
+}
+
+.links2{
+	text-align: center;
+	padding-bottom: 10px;
+}
